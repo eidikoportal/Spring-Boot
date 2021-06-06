@@ -16,7 +16,7 @@ public class SpringBoot2JdbcWithH2Application implements CommandLineRunner {
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
 
 	@Autowired
-	StudentJdbcRepository repository;
+	StudentJdbcRepository repository; 
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBoot2JdbcWithH2Application.class, args);
